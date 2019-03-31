@@ -66,7 +66,7 @@ jobs:
         echo Checking that we're calling the correct link.exe
         where link.exe
         echo Running cmake...
-        cmake .. -G Ninja -DTESTS=ON -DCMAKE_C_COMPILER="c:/Program Files/LLVM/bin/clang-cl.exe" -DCMAKE_CXX_COMPILER="c:/Program Files/LLVM/bin/clang-cl.exe -DCMAKE_BUILD_TYPE=$(BuildType)"
+        cmake .. -G Ninja -DTESTS=ON -DCMAKE_C_COMPILER="c:/Program Files/LLVM/bin/clang-cl.exe" -DCMAKE_CXX_COMPILER="c:/Program Files/LLVM/bin/clang-cl.exe" -DCMAKE_BUILD_TYPE=$(BuildType)
         echo CMake completed.
 
       failOnStderr: false
