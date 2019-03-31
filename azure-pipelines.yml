@@ -40,10 +40,10 @@ jobs:
       matrix:
         Debug-32:
           BuildType: Debug
-          Arch: x86
+          Arch: x64_x86
         Release-32:
           BuildType: Release
-          Arch: x86
+          Arch: x64_x86
         Debug-64:
           BuildType: Debug
           Arch: x64
